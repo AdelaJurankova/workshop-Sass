@@ -12,3 +12,23 @@
 @import "elements/contact";
 @import "elements/form";
 @import "elements/footer";
+
+
+@keyframes head {
+    0% {
+        left: -25px;
+        transform-origin: 0px 20px;
+
+    }
+
+    100% {
+        transform: rotate(25deg);
+        right: -25px;
+    }
+}
+
+.head-cnt {
+    position: absolute;
+    left: 20%;
+    top: -20px;
+}
