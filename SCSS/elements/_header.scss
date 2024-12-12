@@ -1,9 +1,16 @@
-.header{
-    
-
-    best-shop{
-        background-color:$color-white;
-    }
-}
-$spacer:0.20em;
+<header>
+  <nav class="hamburger">
+    <label for="hamburger-checkbox">
+      [ico]
+    </label>
+    <input id="hamburger-checkbox" type="checkbox"/>
+    <ol>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link 5</a></li>
+    </ol>
+  </nav>
+</header>
 
