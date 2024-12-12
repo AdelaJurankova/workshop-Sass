@@ -1,16 +1,30 @@
-<header>
-  <nav class="hamburger">
-    <label for="hamburger-checkbox">
-      [ico]
-    </label>
-    <input id="hamburger-checkbox" type="checkbox"/>
-    <ol>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-      <li><a href="#">Link 4</a></li>
-      <li><a href="#">Link 5</a></li>
-    </ol>
-  </nav>
-</header>
+.header{
+    display: flex;
+    justify-content: center;
+}
+.container-header {
+    display: flex;
+    width: 370px;
+    max-height: 130px;
+    background-color:$color-white padding-box;
+    box-shadow: 0px 3px 6px $color-black;
+    border-style: $color-primary-shadow;
+    border-bottom: 2px;
+    margin: 10px 10px 5px 5px;
+    justify-content: center;
+}
+    
 
+.container-logo {
+    display: flex;
+    color:$color-primary;
+    font-size: 20px;
+    font-family: $font-raleway;
+    justify-content: center;
+    text-transform: capitalize;
+    padding-left: 40px;
+    padding-top: 16px;
+}
+.hamburger-checkbox{
+    display: flex;
+}
