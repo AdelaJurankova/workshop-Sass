@@ -1,6 +1,9 @@
 @import "generic/reset";
 
-@import "settings";
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/mixins";
+@import "settings/media";
 
 @import "elements/base";
 @import "elements/buttons";
